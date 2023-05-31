@@ -4,8 +4,10 @@
   "description": "example of using Cypress with Cucumber",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --spec \"**/*.feature\"",
-    "test:all": "cypress run --spec \"**/*.features\""
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress record": "cypress run --record --key"
   },
   "repository": {
     "type": "git",

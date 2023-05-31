@@ -1,5 +1,3 @@
-import { Given } from "cypress10-cucumber-preprocessor/steps";
-
 const url = 'https://www.google.com/'
 
 Given('I open Google page', () => {

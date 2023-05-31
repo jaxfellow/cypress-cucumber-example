@@ -1,0 +1,37 @@
+{
+  "name": "cypress-cucumber-example",
+  "version": "1.0.0",
+  "description": "example of using Cypress with Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaxfellow/cypress-cucumber-example.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Jansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaxfellow/cypress-cucumber-example/issues"
+  },
+  "homepage": "https://github.com/jaxfellow/cypress-cucumber-example#readme",
+  "dependencies": {
+    "cypress": "^10.9.0"
+  },
+  "cypress10-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "and": "^0.0.3",
+    "cypress10-cucumber-preprocessor": "^1.0.1",
+    "install": "^0.13.0",
+    "npm": "^9.6.7"
+  }
+}

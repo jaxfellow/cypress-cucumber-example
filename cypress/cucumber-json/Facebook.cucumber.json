@@ -1,0 +1,60 @@
+[
+  {
+    "description": "  I want to open a social network page",
+    "keyword": "Feature",
+    "name": "The Facebook",
+    "line": 2,
+    "id": "the-facebook",
+    "tags": [
+      {
+        "name": "@feature-tag",
+        "line": 1
+      },
+      {
+        "name": "@facebook-tag",
+        "line": 1
+      }
+    ],
+    "uri": "Facebook.feature",
+    "elements": [
+      {
+        "id": "the-facebook;opening-a-social-network-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Opening a social network page",
+        "tags": [
+          {
+            "name": "@feature-tag",
+            "line": 1
+          },
+          {
+            "name": "@facebook-tag",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open \"Facebook\" page",
+            "result": {
+              "status": "undefined",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I see \"Facebook\" in the title",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

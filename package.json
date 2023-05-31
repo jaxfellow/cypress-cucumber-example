@@ -34,6 +34,7 @@
     "and": "^0.0.3",
     "cypress10-cucumber-preprocessor": "^1.0.1",
     "install": "^0.13.0",
-    "npm": "^9.6.7"
+    "npm": "^9.6.7",
+    "typescript": "^5.0.4"
   }
 }

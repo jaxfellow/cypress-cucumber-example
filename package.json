@@ -29,8 +29,6 @@
     "nonGlobalStepDefinitions": true
   },
   "devDependencies": {
-    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
-    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
     "and": "^0.0.3",
     "cypress10-cucumber-preprocessor": "^1.0.1",
     "install": "^0.13.0",

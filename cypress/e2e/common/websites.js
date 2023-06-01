@@ -1,17 +1,16 @@
-export function getWebsite (name) {
+export function getWebsite(name) {
 
-    const github = 'https://github.com/'
-    const google = 'https://www.google.com/'
-    const facebook = 'https://www.facebook.com/'
+    const websites = {
+        Github: 'https://github.com/',
+        Google: 'https://www.google.com/',
+        Facebook: 'https://www.facebook.com/',
+        Amazon: 'https://www.amazon.com/',
+        Netflix: 'https://www.netflix.com/de-en/',
+        Wikipedia: 'https://www.wikipedia.org/',
+        YouTube: 'https://www.youtube.com/',
+        LinkedIn: 'https://www.linkedin.com/',
+        Twitter: 'https://twitter.com/'
+    };
 
-    switch (name) {
-        case 'Github':
-            return github;
-        case 'Google':
-            return google;
-        case 'Facebook':
-            return facebook;
-        default:
-            throw new Error(`Unknown website: ${name}`);
-    }
+    return websites[name];
 }

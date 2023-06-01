@@ -8,7 +8,6 @@ export function getWebsite(name) {
         Netflix: 'https://www.netflix.com/',
         Wikipedia: 'https://www.wikipedia.org/',
         YouTube: 'https://www.youtube.com/',
-        LinkedIn: 'https://www.linkedin.com/',
         Twitter: 'https://twitter.com/'
     };
 

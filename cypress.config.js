@@ -1,15 +1,15 @@
 const { defineConfig } = require("cypress");
 const cucumber = require('cypress10-cucumber-preprocessor').default;
-const browserify = require('@cypress/browserify-preprocessor');
-const resolve = require('resolve');
 
 
 async function setupNodeEvents(on, config) {
-  const options = {
-    ...browserify.defaultOptions,
-    typescript: resolve.sync('typescript', { baseDir: config.projectRoot }),
-  };
-  on('file:preprocessor', cucumber(options));
+  on('file:preprocessor', cucumber());
+
+  if (config.env.TAGS) {
+    config.env.TAGS = config.env.TAGS.split('_').join(' ');
+    console.log(`TAGS: ${config.env.TAGS}`);
+  }
+
   return config;
 }
 

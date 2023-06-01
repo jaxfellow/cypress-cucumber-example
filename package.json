@@ -7,7 +7,8 @@
     "test": "cypress run",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "cypress record": "cypress run --record --key"
+    "cypress record": "cypress run --record --key",
+    "smoke:test": "cypress run --env TAGS='@smokeTest or @functionTest'"
   },
   "repository": {
     "type": "git",
@@ -32,7 +33,6 @@
     "and": "^0.0.3",
     "cypress10-cucumber-preprocessor": "^1.0.1",
     "install": "^0.13.0",
-    "npm": "^9.6.7",
-    "typescript": "^5.0.4"
+    "npm": "^9.6.7"
   }
 }

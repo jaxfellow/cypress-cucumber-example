@@ -1,4 +1,4 @@
-@functionTest
+@facebook
 Feature: The Facebook
 
   Scenario: Opening a social network page

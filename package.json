@@ -8,7 +8,9 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "cypress record": "cypress run --record --key",
-    "smoke:test": "cypress run --env TAGS='@smokeTest or @functionTest'"
+    "smoke": "cypress run --env TAGS=@google",
+    "fun": "cypress run --env TAGS='@facebook or @netflix or @youtube or @amazon'",
+    "notFun": "cypress run --env TAGS='@linkedin or @wikipedia or @github'"
   },
   "repository": {
     "type": "git",

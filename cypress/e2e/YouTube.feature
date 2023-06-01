@@ -1,4 +1,4 @@
-@smokeTest
+@youtube
 Feature: Visit YouTube
   
   Scenario: Opening YouTube page

@@ -1,4 +1,4 @@
-@smokeTest
+@amazon
 Feature: Visit Amazon
   
   Scenario: Opening Amazon page

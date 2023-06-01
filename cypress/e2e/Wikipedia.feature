@@ -1,4 +1,4 @@
-@smokeTest
+@wikipedia
 Feature: Visit Wikipedia
   
   Scenario: Opening Wikipedia page

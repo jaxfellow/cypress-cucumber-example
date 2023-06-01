@@ -1,4 +1,4 @@
-@smokeTest
+@netflix
 Feature: Visit Netflix
   
   Scenario: Opening Netflix page

@@ -1,4 +1,4 @@
-@regressionTest
+@github
 Feature: The Github
 
   Scenario: Opening GitHub

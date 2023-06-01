@@ -1,4 +1,4 @@
-@smokeTest
+@twitter
 Feature: Visit Twitter
   
   Scenario: Opening Twitter page

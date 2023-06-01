@@ -1,4 +1,4 @@
-@smokeTest
+@linkedin
 Feature: Visit LinkedIn
   
   Scenario: Opening LinkedIn page

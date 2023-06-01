@@ -5,7 +5,7 @@ export function getWebsite(name) {
         Google: 'https://www.google.com/',
         Facebook: 'https://www.facebook.com/',
         Amazon: 'https://www.amazon.com/',
-        Netflix: 'https://www.netflix.com/de-en/',
+        Netflix: 'https://www.netflix.com/',
         Wikipedia: 'https://www.wikipedia.org/',
         YouTube: 'https://www.youtube.com/',
         LinkedIn: 'https://www.linkedin.com/',
